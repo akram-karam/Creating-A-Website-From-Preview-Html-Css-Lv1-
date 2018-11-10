@@ -1,0 +1,81 @@
+*{outline: 1px solid red;
+  margin:  0px; padding: 0px;
+}
+/*start main rules*/
+body {background-color: yellow; height: 2500px} 
+.container {
+    width: 1000px;margin:auto; background-color: blueviolet; color: red}
+/*end main rules*/
+
+/*start header*/
+.header .slider{background-color:greenyellow;height: 50px}
+.header .navbar{background-color:blue; color: #fff; overflow: hidden;}
+.header .navbar h2 {text-transform: uppercase;padding: 10px ;float: left }
+.header .navbar h2 span {color: red}
+.header .navbar ul{list-style:none; padding-left:0 ;overflow: hidden; float: right}
+.header .navbar ul li{ float: left ; padding: 10px}
+/*end header*/
+
+
+/*start features*/
+.features{overflow: hidden; padding-top: 30px; padding-bottom: 30px}
+.features .feat{ float: left ;
+                 overflow: hidden ; 
+                 width: 33.333% ;
+                 height: 200px;
+                 background-color: #ddd
+}
+.features .feat h2 {text-transform: uppercase}
+/*end features*/
+
+/*start about me*/
+.about-me { background-color: #F2F2F2;
+            overflow: hidden}
+.about-me .image  {
+    float: left;
+    width: 40%    }
+.about-me .imqge img {width: 100%}
+.about-me .info {float: left; text-align: left; width: 60%}
+.about-me .info .hobbies {
+    overflow: hidden; margin: 20px
+}
+.about-me .info .hobbies > div {
+    float:left ; width: 50% ; min-height: 100px 
+}
+/*end about me*/
+
+/*start my skills*/
+.my-skills {
+    overflow: hidden;
+    padding-top: 30px ; 
+    padding-bottom: 30px
+}
+
+.my-skills .skills , .my-skills .progress  {
+    float: left ; width: 50%
+}
+
+/*end my skills*/
+
+
+/*start Resume*/
+.Resume {
+    background-color: #F2F2F2;
+    padding-top: 30px ; 
+    padding-bottom: 30px  ;
+    text-align: center
+}
+/*end Resume*/
+
+/*start Education*/
+.my-Education {
+    overflow: hidden;
+    padding-top: 30px ; 
+    padding-bottom: 30px
+}
+
+.my-Education .skills , .my-Education .progress  {
+    float: left ; width: 50%
+}
+
+/*end my skills*/
